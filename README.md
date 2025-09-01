@@ -1,34 +1,108 @@
-# Visual Discovery Platform
+# Visual Product Matcher
 
-Welcome to the Visual Discovery Platform! This project is designed to provide a seamless interface for discovering and analyzing images through advanced visual recognition and processing techniques.
+A web application that helps users find visually similar products based on uploaded images or image URLs.
 
-## Overview
+---
 
-The Visual Discovery Platform allows users to upload images, search for similar images, and analyze visual content using state-of-the-art AI algorithms. The application is built using Next.js, TypeScript, and Tailwind CSS, ensuring a modern and responsive user experience.
+## 🚀 Live Demo
 
-## Features
+- **App URL:** https://ohara.ai/mini-apps/560a8505-342f-40ed-94a8-2f9514c2ee3f
+- **GitHub Repo:** https://github.com/VY25AY/image_finder
 
-- **Image Upload**: Drag-and-drop functionality for easy image uploads.
-- **Image Recognition**: Advanced algorithms to recognize and analyze images.
-- **Search Functionality**: Find similar images based on user input.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
+---
 
-## Getting Started
+## 📸 Features
+<img width="1190" height="723" alt="Screenshot 2025-09-01 121020" src="https://github.com/user-attachments/assets/96037bed-fa53-4bef-9f4e-9cdbc4245c22" />
+<img width="869" height="655" alt="Screenshot 2025-09-01 121034" src="https://github.com/user-attachments/assets/94715c47-41eb-4064-bc43-e89ef3c846e8" />
+<img width="800" height="728" alt="Screenshot 2025-09-01 121106" src="https://github.com/user-attachments/assets/f910a14d-1ec5-4542-995f-8a3da0d20b5d" />
 
-To get started with the Visual Discovery Platform, please refer to the [PROJECT_SETUP.md](PROJECT_SETUP.md) file for detailed instructions on setting up and deploying the project.
 
-## Contributing
 
-We welcome contributions! Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
 
-## License
+- **Image Upload:** Upload a product image or provide an image URL.
+- **Search Interface:** 
+  - View your uploaded image.
+  - Instantly see a grid of visually similar products.
+  - Filter results by similarity score.
+- **Product Database:** 
+  - 50+ products with images and metadata (name, category, etc.).
+- **Mobile Responsive:** Works seamlessly on all devices.
+- **Error Handling & Loading States:** User-friendly feedback throughout.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+---
 
-## Changelog
+## 🛠️ Tech Stack
 
-For a detailed list of changes and updates, please refer to the [CHANGELOG.md](CHANGELOG.md) file.
+- **Framework:** Next.js (React + TypeScript)
+- **Styling:** Tailwind CSS
+- **UI Components:** ShadCN/UI
+- **Image Analysis:** [e.g., Replicate, Google Vision API, or custom ML]
+- **Hosting:** [e.g., Vercel, Netlify, or your chosen free service]
 
-## Acknowledgments
+---
 
-We would like to thank all contributors and the open-source community for their support and inspiration in building this project.
+## 📝 Approach (200 words max)
+
+This project leverages Next.js for a fast, scalable, and developer-friendly experience. Users can upload an image or provide an image URL, which is then analyzed using an AI/ML service to extract visual features. The app compares these features against a curated database of 50+ products, each with images and metadata. Results are ranked by similarity and displayed in a responsive grid, with filtering options for enhanced usability. The UI is built with ShadCN/UI and Tailwind CSS for a modern, accessible, and mobile-friendly design. Error handling and loading states ensure a smooth user experience. The application is deployed on [your chosen platform] for easy access and sharing.
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repo:**  
+   `git clone https://github.com/yourusername/visual-product-matcher.git`
+2. **Install dependencies:**  
+   `npm install`
+3. **Run locally:**  
+   `npm run dev`
+4. **Configure API keys:**  
+   Add your AI/ML API keys in `.env.local` as needed.
+
+---
+
+## 📂 Project Structure
+
+```
+visual-discovery-platform/
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── CHANGELOG.md
+├── PROJECT_SETUP.md
+├── .gitignore
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+├── next.config.js
+├── postcss.config.js
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── fonts/
+│   │   ├── layout.tsx
+│   │   ├── globals.css
+│   │   └── page.tsx
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   └── middleware.ts
+```
+
+---
+
+## 📄 License
+
+MIT
+
+---
+
+## 🙋‍♂️ Questions?
+
+Feel free to open an issue or contact [your email/contact info].
+
+---
+
+**Project deadline:** 1st Sep 2025  
+**Time investment:** Maximum 8
