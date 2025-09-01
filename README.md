@@ -18,7 +18,8 @@ A web application that helps users find visually similar products based on uploa
 
 
 
-
+---
+---
 - **Image Upload:** Upload a product image or provide an image URL.
 - **Search Interface:** 
   - View your uploaded image.
@@ -92,17 +93,3 @@ visual-discovery-platform/
 
 ---
 
-## 📄 License
-
-MIT
-
----
-
-## 🙋‍♂️ Questions?
-
-Feel free to open an issue or contact [your email/contact info].
-
----
-
-**Project deadline:** 1st Sep 2025  
-**Time investment:** Maximum 8
